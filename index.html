@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Bare - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/custom.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">Tulio Martins</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container">
+            <div class="text-center mt-5" style="background-color: #ffffff; color: #212529;">
+               <h1 class="display-1">Work Term Report: EVERSANA AI Tools Development</h1>
+               <h2 id="introduction" class="mt-5 mb-3">Introduction</h2>
+               <p>This report summarizes my experience during my first co-op work term at EVERSANA Life Sciences, where I worked with the Value &amp; Evidence team in Burlington. My role focused on modernizing and expanding the team’s internal applications by migrating existing Shiny apps from R to Python and developing new AI-powered tools. A major part of this work involved implementing a modular Retrieval-Augmented Generation (RAG) component that could be shared across multiple applications, as well as experimenting with large language models through Azure OpenAI. I also introduced features such as dynamic schema generation with Pydantic and restructured the codebase to support future scalability. This report outlines my key contributions, goals, and the skills I developed throughout this experience.</p>
+               <h2 id="the-employer" class="mt-5 mb-3">The Employer</h2>
+               <p>EVERSANA is a global provider of commercialization services to the life sciences industry. The Value &amp; Evidence team, based in Burlington, supports clients by conducting research and analyzing data to demonstrate the value of medical treatments. This often requires reviewing and synthesizing large volumes of literature and clinical evidence, making automation and AI solutions valuable for improving efficiency, accuracy and cost.</p>
+               <h2 id="job-description" class="mt-5 mb-3">Job Description</h2>
+               <p>During this work term, I served as the sole developer for the Value &amp; Evidence team, maintaining existing applications and building new AI-driven tools to improve literature review and data extraction workflows. My key contributions included:</p>
+               <ul>
+               <li><p>Developing a modular architecture for internal applications, including implementing a RAG pipeline as an external class, enabling multiple apps to share its functionality for document parsing, chunking, embedding, and semantic search.</p>
+               </li>
+               <li><p>Migrating Shiny apps from R to Python and enhancing them with new capabilities, leveraging libraries such as pandas for data handling, PyMuPDF for document parsing, fuzzy matching for text comparison, and model-related tools like Transformers and tiktoken.</p>
+               </li>
+               <li><p>Implementing dynamic Pydantic models to generate JSON schemas and customizable prompt templates, improving flexibility and structured interactions with large language models.</p>
+               </li>
+               <li><p>Experimenting with multiple LLM configurations, using different models and API keys to evaluate performance and cost trade-offs for production scenarios.</p>
+               </li>
+               <li><p>Managing the full lifecycle of the codebase, including repo structure, environment setup, and thorough documentation to ensure reproducibility and support future app development.</p>
+               <h2 id="goals" class="mt-5 mb-3">Goals</h2>
+               </li>
+               </ul>
+               <p><strong>Goal 1</strong>: Strengthen my ability to develop effective, data-driven solutions for healthcare-related challenges using applied AI and statistical analysis   </p>
+               <p>I achieved this by designing a modular Retrieval-Augmented Generation (RAG) component as an external class, allowing multiple applications to access its features rather than limiting it to one. Over the course of the internship, I iteratively improved older app prototypes by integrating this component, which helped me refine my design skills and better understand how to build scalable solutions.</p>
+               <p><strong>Goal 2</strong>: Become proficient in the tools and frameworks used to develop and evaluate AI models at EVERSANA   </p>
+               <p>I worked extensively with Python Shiny, Azure OpenAI, and supporting libraries, experimenting with multiple LLM configurations across different API keys and incorporating libraries to build feature-rich applications.<br>To achieve this, I had to dive deep into the documentation of these tools, learning their capabilities and limitations in detail. This hands-on exploration enabled me to confidently apply them in real-world scenarios and troubleshoot complex integration issues.</p>
+               <p> <strong>Goal 3</strong>: Improve the clarity and effectiveness of my technical writing in documentation and internal reports   </p>
+               <p>I structured the codebase so that new applications could be added easily in the future, which required detailed documentation on architecture, dependencies, and design patterns to ensure maintainability. This documentation was reviewed by colleagues, who provided positive feedback on both the content and structure and highlighted that it was clear and useful.</p>
+               <h2 id="conclusions" class="mt-5 mb-3">Conclusions</h2>
+               <p>This work term significantly strengthened my ability to design and implement scalable, AI-driven applications. I deepened my understanding of large language models and their integration into real-world systems while expanding my skills in Python development, modular app design, and backend/API integration. Moving forward, I plan to continue building expertise in advanced AI techniques and application architecture to create robust, efficient solutions in future projects.</p>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

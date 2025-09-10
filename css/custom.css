@@ -1,0 +1,14 @@
+
+body {
+  font-size: 2rem;  /* default is ~1rem = 16px */
+}
+
+h1 {
+  font-size: 4rem; /* default ~2rem */
+}
+h2 {
+  font-size: 3rem;   /* default ~1.5rem */
+}
+h3 {
+  font-size: 2rem;
+}
